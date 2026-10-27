@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "trip": {
+    "destination": "Fictional Example Valley",
+    "timezone": "Etc/UTC",
+    "arrival": "2030-06-01",
+    "departure": "2030-06-03",
+    "nights": 2,
+    "currency": "USD"
+  },
+  "requested_campsites": 1,
+  "campsites": [
+    {
+      "id": "synthetic-camp-a",
+      "name": "SYNTHETIC Example Camp \u2014 not a real recommendation",
+      "booking_url": "https://example.com/synthetic-booking",
+      "availability": {
+        "status": "available",
+        "arrival": "2030-06-01",
+        "departure": "2030-06-03",
+        "checked_at": "2030-05-01T12:00:00Z",
+        "source_url": "https://example.com/synthetic-inventory",
+        "scope": "SYNTHETIC fixture: one grass pitch, two adults, one tent and car; not a reservation"
+      },
+      "quote": {
+        "currency": "USD",
+        "arrival": "2030-06-01",
+        "departure": "2030-06-03",
+        "scope": "SYNTHETIC fixture: whole group, one pitch, two adults, one tent and car",
+        "checked_at": "2030-05-01T12:00:00Z",
+        "source_url": "https://example.com/synthetic-rate",
+        "nightly_rates": [
+          100,
+          100
+        ],
+        "subtotal": 200,
+        "discount": {
+          "eligible_amount": 100,
+          "fraction": 0.5,
+          "amount": 50,
+          "eligibility_verified": true,
+          "conditions": "SYNTHETIC promotion: second night only, eligibility assumed in test fixture"
+        },
+        "known_fees": 10,
+        "total": 160,
+        "excluded_or_unknown_fees": [
+          "SYNTHETIC local tax not known"
+        ],
+        "minor_unit_digits": 2
+      }
+    }
+  ],
+  "meal_ideas": {
+    "requested": {
+      "breakfast": 2,
+      "dinner": 1
+    },
+    "items": {
+      "breakfast": [
+        "Example porridge idea",
+        "Example fruit and bread idea"
+      ],
+      "dinner": [
+        "Example bean stew idea"
+      ]
+    }
+  }
+}
